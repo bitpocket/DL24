@@ -1,0 +1,7 @@
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\Test Server\bin\Debug\Test Server.exe.config
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\bin\Debug\Test Server.exe.config
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\obj\Debug\Test Server.csprojResolveAssemblyReference.cache
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\bin\Debug\Test Server.exe
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\bin\Debug\Test Server.pdb
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\obj\Debug\Test Server.exe
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer - Test Server\Test Server\obj\Debug\Test Server.pdb

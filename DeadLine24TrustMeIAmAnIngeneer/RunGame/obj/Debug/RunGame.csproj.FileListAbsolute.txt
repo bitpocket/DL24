@@ -1,0 +1,6 @@
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\bin\Debug\RunGame.exe.config
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\bin\Debug\RunGame.exe
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\bin\Debug\RunGame.pdb
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\obj\Debug\RunGame.csprojResolveAssemblyReference.cache
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\obj\Debug\RunGame.exe
+D:\MyDATA\sandbox\DeadLine24TrustMeIAmAnIngeneer\RunGame\obj\Debug\RunGame.pdb

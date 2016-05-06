@@ -1,0 +1,6 @@
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\bin\Debug\TCPTest.exe.config
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\bin\Debug\TCPTest.exe
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\bin\Debug\TCPTest.pdb
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\obj\Debug\TCPTest.csprojResolveAssemblyReference.cache
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\obj\Debug\TCPTest.exe
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\TCPTest\obj\Debug\TCPTest.pdb

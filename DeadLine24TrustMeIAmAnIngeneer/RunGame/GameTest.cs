@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,10 +34,15 @@ namespace DL24
 			}
 			else
 			{
-				Log.Add($"{messageRecieved} is not implemented");
+				//Log.Add($"{messageRecieved} is not implemented");
 				return "";
 			}
 		}
+
+		//public void Send(string message)
+		//{
+		//	stream.Write(bytesSent, 0, bytesSent.Length);
+		//}
 
 		string LOGIN_Responce(string message)
 		{

@@ -10,6 +10,8 @@ namespace DL24
 {
 	class Login
 	{
+		//blic static void Connect();
+
 		public static void StartRecieving(Credential credential, Tcp.RecieveCallback callback)
 		{
 			TcpClient tcpClient = new TcpClient();
@@ -20,10 +22,22 @@ namespace DL24
 			//byte[] buffer = new byte[12];  // length of the text "Hello world!"
 			try
 			{
-				byte[] bytes = new byte[256];
+				byte[] bytes = new byte[512];
 				NetworkStream stream = tcpClient.GetStream();
 				stream.Read(bytes, 0, bytes.Length);
-				string res = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
+
+				var ContentLength = 0;
+
+				for (int i = 0; i < bytes.Length; i++)
+				{
+					if (bytes[i] == '\0' || bytes[i] == '\n')
+					{
+						ContentLength = i;
+						break;
+					}
+				}
+
+				string res = Encoding.UTF8.GetString(bytes, 0, ContentLength);
 				callback(res);
 				// receive data with timeout 10s
 				//Tcp.Receive(socket, buffer, 0, buffer.Length, 10000, RecieveCallBack);
@@ -33,7 +47,7 @@ namespace DL24
 			}
 			catch (Exception ex)
 			{
-				Log.Add(ex.Message);
+				//Log.Add(ex.Message);
 			}
 
 		}
@@ -53,7 +67,7 @@ namespace DL24
 			}
 			catch (Exception ex)
 			{
-				Log.Add(ex.Message);
+				//Log.Add(ex.Message);
 			}
 		}
 

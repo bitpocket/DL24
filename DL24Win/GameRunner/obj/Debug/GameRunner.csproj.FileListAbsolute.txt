@@ -1,0 +1,3 @@
+C:\Users\wcendrzak\AppData\Local\Temporary Projects\GameRunner\bin\Debug\GameRunner.exe.config
+D:\MyDATA\sandbox\DL24Win\GameRunner\bin\Debug\GameRunner.exe.config
+D:\MyDATA\sandbox\git\DL24\DL24Win\GameRunner\bin\Debug\GameRunner.exe.config

@@ -9,22 +9,26 @@ namespace DL24
 {
 	internal class Run
 	{
-		private static IGame testGame;
+		private static GameTest testGame;
 
 		public static void RunGame()
 		{
 			testGame = new GameTest();
 
-			Login.StartRecieving(Credentials.CredentialTestGame2, Recieved);
+
+
+			//Login.StartRecieving(Credentials.CredentialRoboty, Recieved);
 			//Login.Send("Hello World");
 		}
 
 		private static void Recieved(string messageRecieved)
 		{
-			Log.Add(messageRecieved);
-			string responce = testGame.ProcessResponce(messageRecieved);
+			//Log.Add(messageRecieved);
+			string myResponce = testGame.ProcessResponce(messageRecieved);
 
-			Login.StartRecieving(Credentials.CredentialTestGame2, Recieved);
+			//testGame.Send(myResponce);
+
+			Login.StartRecieving(Credentials.CredentialRoboty, Recieved);
 		}
 	}
 }

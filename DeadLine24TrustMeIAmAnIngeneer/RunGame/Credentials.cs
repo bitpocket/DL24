@@ -8,6 +8,14 @@ namespace DL24
 {
 	public class Credentials
 	{
+		public static Credential CredentialRoboty = new Credential()
+		{
+			Host = "universum.dl24",
+			Port = 20003,
+			Login = "team1",
+			Password = "dweioirgdt"
+		};
+
 		public static Credential CredentialTestGame1 = new Credential()
 		{
 			Host = "dl24-lite.fp.lan",
